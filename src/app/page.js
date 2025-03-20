@@ -90,10 +90,34 @@ export default function MyApp() {
                 />
               </div>  
             </div> */}
-            <div class="grid grid-flow-col grid-rows-3 gap-4">
-              <div class="row-span-3 ...">01</div>
-              <div class="col-span-2 ...">02</div>
-              <div class="col-span-2 row-span-2 ...">03</div>
+            <div class="grid grid-flow-col grid-rows-3 gap-3">
+              <div class="row-span-3 ...">
+                <Image
+                src="/images/IMG_9.jpg"
+                alt="Group Meeting"
+                width={360}
+                height={1300}
+                className="rounded-lg shadow-md object-cover"
+              />
+              </div>
+              <div class="col-span-2 ...">
+              <Image
+                src="/images/IMG_8.jpg"
+                alt="Team Collaboration"
+                width={300}
+                height={500}
+                className="rounded-lg shadow-md object-cover"
+                />
+              </div>
+              <div class="col-span-2 row-span-2 ...">
+                <Image
+                  src="/images/IMG_6.jpg"
+                  alt="Workspace Collaboration"
+                  width={300}
+                  height={200}
+                  className="rounded-lg shadow-md object-cover"
+                />
+              </div>
             </div>
           </div>
           <div className="bg-[#7AAADD]/[0.11] shadow-lg rounded-lg p-6 lg:p-10 max-w-md">
