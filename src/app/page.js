@@ -65,31 +65,6 @@ export default function MyApp() {
           <div className="relative flex justify-center lg:justify-start">
             <div className="absolute -z-10 w-64 h-64 bg-orange-200 rounded-full top-0 left-0 transform -translate-x-1/2 -translate-y-1/2"></div>
             <div className="absolute -z-10 w-56 h-56 bg-orange-300 rounded-full bottom-0 right-0 transform translate-x-1/2 translate-y-1/2"></div>
-            {/* <div className="grid grid-cols-2 gap-3 items-start relative">
-            <Image
-              src="/images/IMG_9 6.jpg"
-              alt="Group Meeting"
-              width={360}
-              height={820}
-              className="rounded-lg shadow-md object-cover"
-            />
-              <div className="flex flex-col gap-3">
-                <Image
-                  src="/images/IMG_8 1.jpg"
-                  alt="Team Collaboration"
-                  width={500}
-                  height={900}
-                  className="rounded-lg shadow-md object-cover"
-                />
-                <Image
-                  src="/images/IMG_6_1.jpg"
-                  alt="Workspace Collaboration"
-                  width={300}
-                  height={200}
-                  className="rounded-lg shadow-md object-cover"
-                />
-              </div>  
-            </div> */}
             <div class="grid grid-flow-col grid-rows-3 gap-3">
               <div class="row-span-3 ...">
                 <Image
@@ -237,30 +212,34 @@ export default function MyApp() {
           <div className="relative flex justify-center lg:justify-start">
             <div className="absolute -z-10 w-64 h-64 bg-orange-200 rounded-full top-0 left-0 transform -translate-x-1/2 -translate-y-1/2"></div>
             <div className="absolute -z-10 w-56 h-56 bg-orange-300 rounded-full bottom-0 right-0 transform translate-x-1/2 translate-y-1/2"></div>
-            <div className="grid grid-cols-2 gap-3 items-start relative">
-            <Image
-              src="/images/IMG_9 6.jpg"
-              alt="Group Meeting"
-              width={360}
-              height={820}
-              className="rounded-lg shadow-md object-cover"
-            />
-              <div className="flex flex-col gap-3">
+            <div class="grid grid-flow-col grid-rows-3 gap-3">
+              <div class="row-span-3 ...">
                 <Image
-                  src="/images/IMG_8 1.jpg"
-                  alt="Team Collaboration"
-                  width={500}
-                  height={900}
-                  className="rounded-lg shadow-md object-cover"
+                src="/images/IMG_9.jpg"
+                alt="Group Meeting"
+                width={360}
+                height={1300}
+                className="rounded-lg shadow-md object-cover"
+              />
+              </div>
+              <div class="col-span-2 ...">
+              <Image
+                src="/images/IMG_8.jpg"
+                alt="Team Collaboration"
+                width={300}
+                height={500}
+                className="rounded-lg shadow-md object-cover"
                 />
+              </div>
+              <div class="col-span-2 row-span-2 ...">
                 <Image
-                  src="/images/IMG_6_1.jpg"
+                  src="/images/IMG_6.jpg"
                   alt="Workspace Collaboration"
                   width={300}
                   height={200}
                   className="rounded-lg shadow-md object-cover"
                 />
-              </div> 
+              </div>
             </div>
           </div>
           <div className="bg-[#7AAADD]/[0.11] shadow-lg rounded-lg p-6 lg:p-10 max-w-md">
@@ -289,31 +268,35 @@ export default function MyApp() {
               best internship opportunities, ensuring they find the right fit for their career development.
             </p>
           </div>
-          <div className="grid grid-cols-2 gap-4 items-start">
-          <Image
-              src="/images/IMG_9 6.jpg"
-              alt="Group Meeting"
-              width={360}
-              height={820}
-              className="rounded-lg shadow-md object-cover"
-            />
-              <div className="flex flex-col gap-3">
+          <div class="grid grid-flow-col grid-rows-3 gap-3">
+              <div class="row-span-3 ...">
                 <Image
-                  src="/images/IMG_8 1.jpg"
-                  alt="Team Collaboration"
-                  width={500}
-                  height={900}
-                  className="rounded-lg shadow-md object-cover"
+                src="/images/IMG_9.jpg"
+                alt="Group Meeting"
+                width={360}
+                height={1300}
+                className="rounded-lg shadow-md object-cover"
+              />
+              </div>
+              <div class="col-span-2 ...">
+              <Image
+                src="/images/IMG_8.jpg"
+                alt="Team Collaboration"
+                width={300}
+                height={500}
+                className="rounded-lg shadow-md object-cover"
                 />
+              </div>
+              <div class="col-span-2 row-span-2 ...">
                 <Image
-                  src="/images/IMG_6_1.jpg"
+                  src="/images/IMG_6.jpg"
                   alt="Workspace Collaboration"
                   width={300}
                   height={200}
                   className="rounded-lg shadow-md object-cover"
                 />
-              </div> 
-          </div>
+              </div>
+            </div>
         </div>
       </section>
 
